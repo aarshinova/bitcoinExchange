@@ -1,0 +1,26 @@
+{
+  "name": "coinbaseexchange",
+  "version": "1.0.0",
+  "description": "Coinbase exchange program",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "livereload": "nodemon --inspect app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "coinbase",
+    "orderbook"
+  ],
+  "author": "Anna Arshinova",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "gdax": "github:coinbase/gdax-node"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1"
+  }
+}
